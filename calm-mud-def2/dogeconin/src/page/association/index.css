@@ -1,0 +1,147 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.association-main-container {
+  width: 375px;
+  min-height: 100vh;
+  background: #0a0904;
+  margin: 0 auto;
+  padding: 20px 16px;
+  color: #FFFFFF;
+}
+
+.association-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.association-group {
+  flex-shrink: 0;
+  position: relative;
+  width: 15.673px;
+  height: 12px;
+  background: url(../../assets/images/ff22e5d7-7438-4a20-9d50-0ac743f4f4e5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 49;
+}
+
+.association-revenue-details {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.association-tabs {
+  position: relative;
+  width: 343px;
+  height: 40px;
+  margin: 33px 0 0 16px;
+}
+
+.association-tab-button {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.02);
+  border-radius: 20px;
+  backdrop-filter: blur(13.591px);
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.association-tab-button:nth-child(1) {
+  width: 30.63%;
+  left: 0;
+}
+
+.association-tab-button:nth-child(2) {
+  width: 33.78%;
+  left: 33.33%;
+}
+
+.association-tab-button:nth-child(3) {
+  width: 30.18%;
+  left: 69.82%;
+}
+
+.association-tab-button.active {
+  background: #ccae0d;
+  border: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.29) inset;
+}
+
+.association-tab-text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.association-tab-button:hover {
+  opacity: 0.8;
+}
+
+.association-table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+
+.association-time,
+.association-quantity {
+  color: #898989;
+  font-size: 14px;
+}
+
+.association-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background: rgba(23, 24, 24, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.association-date-time,
+.association-amount {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+/* 添加鼠标悬停效果 */
+.association-group-3 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 7px;
+  left: 325px;
+  background: url(../../assets/images/69685892-704b-4a51-98d0-14d2c562fd3d.png) no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  cursor: pointer; /* 添加鼠标指针样式 */
+  transition: opacity 0.3s ease; /* 添加过渡效果 */
+}
+
+.association-group-3:hover {
+  opacity: 0.8; /* 添加悬停效果 */
+}
