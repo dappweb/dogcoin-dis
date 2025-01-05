@@ -1,0 +1,333 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.withdraw-main-container {
+  overflow: hidden;
+}
+
+.withdraw-main-container,
+.withdraw-main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.withdraw-main-container {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+  background: #0a0904;
+  overflow: hidden;
+}
+.withdraw-flex-row-fb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 182px;
+  height: 15px;
+  margin: 26px 0 0 21px;
+  z-index: 17;
+}
+.withdraw-group {
+  flex-shrink: 0;
+  position: relative;
+  width: 15.673px;
+  height: 12px;
+  background: url(../../assets/images/4dd5b414-2410-411b-ae96-185a71c8f4dd.png)
+    no-repeat center;
+  background-size: cover;
+}
+.withdraw-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 30px;
+  height: 15px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 17;
+}
+.withdraw-currency {
+  display: block;
+  position: relative;
+  height: 23px;
+  margin: 33px 0 0 19px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.withdraw-rectangle-backup {
+  position: relative;
+  width: 343px;
+  height: 50px;
+  margin: 16px 0 0 16px;
+  background: #171818;
+  z-index: 2;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.withdraw-group-1 {
+  position: relative;
+  width: 68px;
+  height: 24px;
+  margin: 13px 0 0 16px;
+  z-index: 3;
+  overflow: hidden;
+}
+.withdraw-dogecoin {
+  position: absolute;
+  width: 35.29%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/images/bd92529b-167a-4a2e-8171-0da0ffd6f89d.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+.withdraw-doge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 2px;
+  left: 28px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.withdrawal-amount {
+  display: block;
+  position: relative;
+  height: 20px;
+  margin: 24px 0 0 21px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.withdraw-rectangle-backup-2 {
+  position: relative;
+  width: 343px;
+  height: 50px;
+  margin: 15px 0 0 16px;
+  background: #171818;
+  z-index: 16;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.withdraw-zero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 16px;
+  left: 17px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+}
+.withdraw-gpm-t {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  width: 44px;
+  height: 17px;
+  top: 17px;
+  left: 283px;
+  color: #ffffff;
+  font-family: DIN, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.406px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 16;
+}
+.withdraw-flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 324px;
+  height: 16px;
+  margin: 16px 0 0 19px;
+  z-index: 8;
+}
+.withdraw-withdrawable-amount {
+  flex-shrink: 0;
+  position: relative;
+  height: 15px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.withdraw-button {
+  left: -160px;
+  flex-shrink: 0;
+  position: relative;
+  width: 32px;
+  height: 13px;
+  cursor: pointer;
+  color: #ccae0d;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  z-index: 8;
+}
+.withdraw-flex-row-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 324px;
+  height: 15px;
+  margin: 18px 0 0 19px;
+  z-index: 9;
+}
+.withdraw-span {
+  flex-shrink: 0;
+  position: relative;
+  height: 15px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.withdraw-button-3-percent {
+  flex-shrink: 0;
+  position: relative;
+  width: 18px;
+  height: 13px;
+  cursor: pointer;
+  color: #ccae0d;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  z-index: 9;
+}
+.withdraw-button-group {
+  position: relative;
+  width: 343px;
+  height: 50px;
+  margin: 223px 0 0 16px;
+  cursor: pointer;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+  z-index: 10;
+  overflow: hidden;
+}
+.withdraw-text-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 60px;
+  height: 21px;
+  margin: 15px 0 0 142px;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 6.5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.withdraw-wrapper-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ccae0d;
+  z-index: 11;
+  border-radius: 25px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.29) inset;
+}
+.withdraw-amount-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
+  padding: 8px;
+}
+.withdraw-amount-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.withdraw-amount-input::-webkit-outer-spin-button,
+.withdraw-amount-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.withdraw-amount-input[type=number] {
+  -moz-appearance: textfield;
+}
+.withdraw-rectangle-backup-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
